@@ -1,0 +1,15 @@
+algorithme tableau_renverse
+
+variable
+	tableau T(6):entier
+	i:entier
+
+Debut
+	pour i <-- 0 a 5 faire 
+		ecrire("donner le nombre ",i+1)
+		lire(T(i))
+	fin pour
+	pour i <-- 5 a 0 pas -1 faire 
+		ecrire(T(i))
+	fin pour
+fin
